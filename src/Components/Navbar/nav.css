@@ -16,19 +16,19 @@
 }
 
 .Links{
-    color: #321504;
+    color: #fccc5e;
     display: flex;
     flex-direction: row;
     margin-right: 20px;
 }
 
 .Links p{
-    color: #321504;
+    color: #fccc5e;
     margin: 5px;
 }
 
 .Links a{
-    color: #321504;
+    color: #fccc5e;
     text-decoration: none;
 }
 
