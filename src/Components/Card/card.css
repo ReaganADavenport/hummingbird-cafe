@@ -1,3 +1,16 @@
+/* $ingredients: (
+  'foam': ('color': #fdfdfd),
+  'steam': ('color': #f0eada),
+  'half': ('color': #f0eada),
+  'water': ('color': #c7dfdf),
+  'espresso': ('color': #4d211d),
+  'chocolate': ('color': #71471c),
+  'crema': ('color': #ac6d44),
+  'condensed': ('color': #f0eada)
+); */
+
+
+
 .Card{
     align-items: center;
     background: rgba(255, 255, 255, 0.2);
@@ -12,3 +25,24 @@
     padding: 5px;
     width: 250px;
 }
+
+.coffee-cup{
+
+    width: 150px;
+    height: 150px;
+    border-radius: 5% 5% 30% 30%;
+    border-style: solid;
+    border-color: #fff;
+    border-width: 0.5rem;
+    margin: auto;
+}
+
+/* .coffee-ingredients{
+    position: absolute;
+    left: 0;
+    height: auto;
+    width: calc(100% - 1rem);
+    margin: 0.5rem;
+    bottom: 0;
+    overflow: hidden;
+} */
