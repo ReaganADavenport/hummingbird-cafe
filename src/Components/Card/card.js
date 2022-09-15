@@ -10,14 +10,14 @@ class Card extends Component {
     return(
         <div className="Card">
 
-          <h2>{itemName}</h2>
+          <h1>{itemName}</h1>
         
             <div className='coffee-cup'>
                 
             </div>
 
             <div className='drink-ingredients'>
-                    <h3>{itemIngredients}</h3>
+                    <h2>{itemIngredients}</h2>
                 </div>
 
         </div>
