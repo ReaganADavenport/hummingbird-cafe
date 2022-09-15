@@ -1,6 +1,7 @@
 import React from 'react';
 import './menu.css';
 
+import Card from '../Card/card';
 
 
 const Menu = () => {
@@ -12,7 +13,8 @@ const Menu = () => {
             </div>
         
         <div className='Drinks'>
-            <h3>Latte</h3>
+            <Card itemName={"Latte"}></Card>
+            <Card itemName={"Green Tea"}></Card>
             <h3>Green Tea</h3>
         </div>
 
