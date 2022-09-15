@@ -7,7 +7,10 @@ const Menu = () => {
 
     return(
         <div className='Menu'>
-        <h2>Menu</h2>
+            <div className='Title'>
+                <h2>Menu</h2>
+            </div>
+        
         <div className='Drinks'>
             <h3>Latte</h3>
             <h3>Green Tea</h3>
