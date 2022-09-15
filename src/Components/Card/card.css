@@ -18,6 +18,7 @@
     border: solid 2px transparent;
     border-radius: 15px;
     box-shadow: 10px 10px 10px rgba(46, 54, 68, 0.3);
+    color:#fff;
     display: flex;
     flex-direction: column;
     height: 100%;
