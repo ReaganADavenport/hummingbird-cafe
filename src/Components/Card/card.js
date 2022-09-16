@@ -5,7 +5,7 @@ import './card.css';
 
 class Card extends Component {
   render(){
-    const { itemName, itemIngredients} = this.props;
+    const { itemName, itemContents, itemIngredients} = this.props;
     
     return(
         <div className="Card">
@@ -13,6 +13,7 @@ class Card extends Component {
           <h1>{itemName}</h1>
         
             <div className='coffee-cup'>
+              <div className='drink'>{itemContents}</div>
                 
             </div>
 

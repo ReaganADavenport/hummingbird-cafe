@@ -1,13 +1,13 @@
-/* $ingredients: (
-  'foam': ('color': #fdfdfd),
-  'steam': ('color': #f0eada),
-  'half': ('color': #f0eada),
+/* 
+var('foam'): ('color': #fdfdfd);
+var('steam'): ('color': #f0eada);
+var('half'): ('color': #f0eada);
   'water': ('color': #c7dfdf),
   'espresso': ('color': #4d211d),
   'chocolate': ('color': #71471c),
-  'crema': ('color': #ac6d44),
-  'condensed': ('color': #f0eada)
-); */
+  'crema': ('color': #ac6d44)
+  'condensed': ('color': #f0eada);
+ */
 
 
 
