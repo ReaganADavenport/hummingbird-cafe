@@ -11,7 +11,12 @@ class Card extends Component {
         <div className="Card">
 
           <h1>{itemName}</h1>
-        
+
+
+            <div className='coffee-steam'>
+              <span className='steam'></span>
+              
+            </div>
             <div className='coffee-cup'>
               <div className='drink'>{itemContents}</div>
                 

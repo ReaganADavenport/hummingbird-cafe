@@ -1,19 +1,8 @@
-/* 
-var('foam'): ('color': #fdfdfd);
-var('steam'): ('color': #f0eada);
-var('half'): ('color': #f0eada);
-  'water': ('color': #c7dfdf),
-  'espresso': ('color': #4d211d),
-  'chocolate': ('color': #71471c),
-  'crema': ('color': #ac6d44)
-  'condensed': ('color': #f0eada);
- */
-
-
 
 .Card{
     align-items: center;
-    background: rgba(255, 255, 255, 0.2);
+    /* background:rgba(0, 0, 0, 0.3); */
+    background: rgba(0, 0, 0, 0.8);
     backdrop-filter: blur(5px);
     border: solid 2px transparent;
     border-radius: 15px;
@@ -28,6 +17,120 @@ var('half'): ('color': #f0eada);
     margin-top: 30px;
     width: 250px;
 }
+
+.coffee-steam {
+    position: absolute;
+    height: 10rem;
+    width: 100%;
+    bottom: 350px;
+    left: 0;
+}
+
+.steam{
+    position: relative;
+    top:40px;
+    left:125px;
+    -webkit-animation: steam 7s linear infinite 3s;
+    -moz-animation: steam 7s linear infinite 3s;
+    -ms-animation: steam 7s linear infinite 3s;
+    -o-animation: steam 7s linear infinite 3s;
+    animation: steam 7s linear infinite 3s;
+}
+
+.steam:before,
+.steam:after{
+  content: " ";
+  position: absolute;
+  top:0;
+  left:-15px;
+  border-right: 0px solid transparent;
+  border-top: 2px solid #fff;
+  border-left: 5px solid #fff;
+  border-bottom: 2px solid transparent;
+  width: 40px;
+  height: 70px;
+  z-index: 8;
+  border-radius: 80% 0 10% 10%; 
+
+ -webkit-transform: rotate(168deg) skewY(10deg);
+ -moz-transform: rotate(168deg) skewY(10deg);
+ -ms-transform: rotate(168deg) skewY(10deg);
+ -o-transform: rotate(168deg) skewY(10deg);
+ transform: rotate(168deg) skewY(10deg);
+
+ -webkit-filter: blur(7px);
+ -moz-filter: blur(7px);
+ -o-filter: blur(7px);
+ -ms-filter: blur(7px);
+  filter: blur(7px);
+}
+
+.steam:after{
+    top:40px;
+    left:-35px;
+    z-index: 4;
+    border-radius: 80% 0 10% 10%; 
+    -webkit-transform: rotate(315deg) skewY(5deg);
+    -moz-transform: rotate(315deg) skewY(5deg);
+    -ms-transform: rotate(315deg) skewY(5deg);
+    -o-transform: rotate(315deg) skewY(5deg);
+    transform: rotate(315deg) skewY(5deg);
+    
+    -webkit-filter: blur(7px);
+    -moz-filter: blur(7px);
+    -o-filter: blur(7px);
+    -ms-filter: blur(7px);
+    filter: blur(7px);
+}
+    
+    
+@-webkit-keyframes steam {
+    0% { top: 100px; opacity: 0.5; visibility: visible; }
+    20% { top: 80px; opacity: 0.8; }
+    40% { top: 60px; opacity: 1; }
+    60% { top: 40px; opacity: 0.8; }
+    80% { top: 20px; opacity: 0.5; }
+    100% { top: 0px; opacity: 0; visibility: hidden; }
+}
+    
+@-moz-keyframes steam {
+    0% { top: 100px; opacity: 0.3; visibility: visible; }
+    20% { top: 80px; opacity: 0.8; }
+    40% { top: 60px; opacity: 1.0; }
+    60% { top: 40px; opacity: 0.8; }
+    80% { top: 20px; opacity: 0.5; }
+    100% { top: 0px; opacity: 0; visibility: hidden; }
+}
+    
+@-ms-keyframes steam {
+    0% { top: 100px; opacity: 0.5; visibility: visible; }
+    20% { top: 80px; opacity: 0.8; }
+    40% { top: 60px; opacity: 1.0; }
+    60% { top: 40px; opacity: 0.8; }
+    80% { top: 20px; opacity: 0.5; }
+    100% { top: 0px; opacity: 0; visibility: hidden; }
+}
+    
+@-o-keyframes steam {
+    0% { top: 100px; opacity: 0.5; visibility: visible; }
+    20% { top: 80px; opacity: 0.8; }
+    40% { top: 60px; opacity: 1.0; }
+    60% { top: 40px; opacity: 0.8; }
+    80% { top: 20px; opacity: 0.5; }
+    100% { top: 0px; opacity: 0; visibility: hidden; }
+}
+    
+@keyframes steam {
+    0% { top: 100px; opacity: 0.3; visibility: visible; }
+    20% { top: 80px; opacity: 0.8; }
+    40% { top: 60px; opacity: 1.0; }
+    60% { top: 40px; opacity: 0.8; }
+    80% { top: 20px; opacity: 0.3; }
+    100% { top: 0px; opacity: 0; visibility: hidden; }
+}
+
+
+
 
 .coffee-cup{
 
