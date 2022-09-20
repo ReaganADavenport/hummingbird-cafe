@@ -154,6 +154,17 @@
     width: 130px;
 }
 
+.bombon{
+    background: linear-gradient(#4d211d,#f0eada);
+    border-radius: 5% 5% 30% 30%;
+    display: grid;
+    grid-template-columns: auto;
+    height: 130px;
+    margin: 10px;
+    margin-right: 10px;
+    width: 130px;
+}
+
 .greenTea{
     background-color: #a8d55f;
     border-radius: 5% 5% 30% 30%;
