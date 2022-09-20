@@ -13,12 +13,12 @@ class Card extends Component {
           <h1>{itemName}</h1>
 
 
-            <div className='coffee-steam'>
+            <div className='drink-steam'>
               <span className='steam'></span>
               
             </div>
-            <div className='coffee-cup'>
-              <div className='drink'>{itemContents}</div>
+            <div className='cup'>
+              <div className={itemContents}></div>
                 
             </div>
 

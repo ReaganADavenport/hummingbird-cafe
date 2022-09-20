@@ -18,7 +18,7 @@
     width: 250px;
 }
 
-.coffee-steam {
+.drink-steam {
     position: absolute;
     height: 10rem;
     width: 100%;
@@ -132,7 +132,7 @@
 
 
 
-.coffee-cup{
+.cup{
 
     width: 150px;
     height: 150px;
@@ -141,6 +141,26 @@
     border-color: #fff;
     border-width: 0.5rem;
     margin: auto;
+}
+
+.latte{
+    background: linear-gradient(#fdfdfd 2%,#f0eada 10%, #4d211d);
+    border-radius: 5% 5% 30% 30%;
+    display: grid;
+    grid-template-columns: auto;
+    height: 130px;
+    margin: 10px;
+    margin-right: 10px;
+    width: 130px;
+}
+
+.greenTea{
+    background-color: #a8d55f;
+    border-radius: 5% 5% 30% 30%;
+    height: 130px;
+    margin: 10px;
+    margin-right: 10px;
+    width: 130px;
 }
 
 .drink-ingredients{

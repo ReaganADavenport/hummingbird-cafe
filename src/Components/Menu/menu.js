@@ -13,8 +13,8 @@ const Menu = () => {
             </div>
         
         <div className='Drinks'>
-            <Card itemName={"Latte"} itemIngredients={"expresso, steamed milk, milk foam"}></Card>
-            <Card itemName={"Green Tea"} itemIngredients={"green tea"}></Card>
+            <Card itemName={"Latte"} itemIngredients={"expresso, steamed milk, milk foam"} itemContents={'latte'}></Card>
+            <Card itemName={"Green Tea"} itemIngredients={"green tea"} itemContents={'greenTea'}></Card>
         </div>
 
       </div>
