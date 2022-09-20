@@ -23,7 +23,7 @@ class Card extends Component {
             </div>
 
             <div className='drink-ingredients'>
-                    <h2>{itemIngredients}</h2>
+                    <h3>{itemIngredients}</h3>
                 </div>
 
         </div>

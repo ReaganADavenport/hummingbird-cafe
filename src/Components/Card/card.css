@@ -144,10 +144,9 @@
 }
 
 .latte{
-    background: linear-gradient(#fdfdfd 2%,#f0eada 10%, #4d211d);
+    background-image: linear-gradient(0deg, #4d211d 27.61%, #4d211d 40%, #f0eada 40%, #f0eada 90%, #fdfdfd 90%, #fdfdfd 92%);
+    background-size: 134.00px 134.00px;
     border-radius: 5% 5% 30% 30%;
-    display: grid;
-    grid-template-columns: auto;
     height: 130px;
     margin: 10px;
     margin-right: 10px;
@@ -155,13 +154,13 @@
 }
 
 .bombon{
-    background: linear-gradient(#4d211d,#f0eada);
+    background-image: linear-gradient(0deg, #f0dbb9 0%, #f0dbb9 60%, #4d211d 60%, #4d211d 100%);
+    background-size: 134.00px 134.00px;
     border-radius: 5% 5% 30% 30%;
-    display: grid;
-    grid-template-columns: auto;
-    height: 130px;
+    height: 100px;
     margin: 10px;
     margin-right: 10px;
+    margin-top: 40px;
     width: 130px;
 }
 
