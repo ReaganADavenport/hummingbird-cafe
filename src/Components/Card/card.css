@@ -293,15 +293,52 @@
     z-index: 1;
 }
 
-.boba1 .boba2 .boba3{
-    background-color: rgba(222, 231, 242, 1);
+.boba1{
+    background-color: #000;
     border-radius: 50px;
     height: 30px;
+    left: 20px;
     position: relative;
+    top: 70px;
     width: 30px;
     z-index: 2;
-
 }
+
+.boba2{
+    background-color: #000;
+    border-radius: 50px;
+    height: 30px;
+    left: 60px;
+    position: relative;
+    top: 50px;
+    width: 30px;
+    z-index: 2;
+}
+
+.boba3{
+    background-color: #000;
+    border-radius: 50px;
+    height: 30px;
+    left: 100px;
+    position: relative;
+    top: 10px;
+    width: 30px;
+    z-index: 2;
+}
+
+.bobaTea{
+    background-image: linear-gradient(0deg, #f0eada 0%, #f0eada 50%, #660501 50%, #660501 100%);
+    background-size: 180px 180px;
+    border-radius: 5% 5% 30% 30%;
+    height: 180px;
+    margin: 10px;
+    margin-right: 10px;
+    position: absolute;
+    width: 130px;
+    z-index: 1;
+}
+
+
 
 .drink-ingredients{
     align-items: center;

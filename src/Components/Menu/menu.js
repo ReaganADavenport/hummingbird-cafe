@@ -3,6 +3,7 @@ import './menu.css';
 
 import HotCard from '../Card/hotcard';
 import ColdCard from '../Card/coldcard';
+import BobaCard from '../Card/bobacard';
 
 
 const Menu = () => {
@@ -24,6 +25,7 @@ const Menu = () => {
             <ColdCard itemName={"Dragon Fruit Lemonade"} itemIngredients={"dragon fruit, lemonade, maple syrup"} itemContents={'dragonFruit'}></ColdCard>
             <ColdCard itemName={"Butterfly Lemonade"} itemIngredients={"butterfly pea blossoms, lemonade"} itemContents={'butterfly'}></ColdCard>
             <ColdCard itemName={"Iced Chai Tea Latte"} itemIngredients={"chai tea, milk"} itemContents={'iceChaiTeaLatte'}></ColdCard>
+            <BobaCard itemName={"Boba Tea"} itemIngredients={"black tea, milk, boba pearls"} itemContents={'bobaTea'}></BobaCard>
         </div>
 
       </div>
