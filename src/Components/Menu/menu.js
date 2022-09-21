@@ -2,6 +2,7 @@ import React from 'react';
 import './menu.css';
 
 import HotCard from '../Card/hotcard';
+import ColdCard from '../Card/coldcard';
 
 
 const Menu = () => {
@@ -19,6 +20,7 @@ const Menu = () => {
             <HotCard itemName={"Green Tea"} itemIngredients={"macha green tea"} itemContents={'greenTea'}></HotCard>
             <HotCard itemName={"Chai Tea Latte"} itemIngredients={"chai tea, steamed milk, milk foam"} itemContents={'chaiTeaLatte'}></HotCard>
             <HotCard itemName={"London Fog"} itemIngredients={"earl grey tea, vanilla, lavender, brown sugar, steamed milk, milk foam"} itemContents={'londonFog'}></HotCard>
+            <ColdCard itemName={"Lemonade"} itemIngredients={"lemon juice, sugar"} itemContents={'lemonade'}></ColdCard>
         </div>
 
       </div>
