@@ -362,7 +362,29 @@
     z-index: 1;
 }
 
+.earlGreyBobaTea{
+    background-image: linear-gradient(0deg, #660602 0%, #660602 50%, #f0eada 50%, #f0eada 90%, #c5b9dc 90%, #c5b9dc 100%);
+    background-size: 180px 180px;
+    border-radius: 5% 5% 30% 30%;
+    height: 180px;
+    margin: 10px;
+    margin-right: 10px;
+    position: absolute;
+    width: 130px;
+    z-index: 1;
+}
 
+.taroTea{
+    background-image: linear-gradient(0deg, #e39803 0%, #e39803 50%, #f0eada 50%, #f0eada 90%, #aa5e93 90%, #aa5e93 100%);
+    background-size: 180px 180px;
+    border-radius: 5% 5% 30% 30%;
+    height: 180px;
+    margin: 10px;
+    margin-right: 10px;
+    position: absolute;
+    width: 130px;
+    z-index: 1;
+}
 
 .drink-ingredients{
     align-items: center;
