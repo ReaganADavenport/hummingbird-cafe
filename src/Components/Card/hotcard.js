@@ -3,7 +3,7 @@ import './card.css';
 
 
 
-class Card extends Component {
+class HotCard extends Component {
   render(){
     const { itemName, itemContents, itemIngredients} = this.props;
     
@@ -31,4 +31,4 @@ class Card extends Component {
   }
 }
 
-export default Card;
+export default HotCard;
