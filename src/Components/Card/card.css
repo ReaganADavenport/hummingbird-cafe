@@ -30,7 +30,7 @@
 .steam{
     position: relative;
     top:40px;
-    left:125px;
+    left:10px;
     -webkit-animation: steam 7s linear infinite 3s;
     -moz-animation: steam 7s linear infinite 3s;
     -ms-animation: steam 7s linear infinite 3s;
@@ -259,6 +259,18 @@
 
 .dragonFruit{
     background-image: linear-gradient(0deg, #ba6303 0%, #ba6303 10%, #e2d395 10%, #e2d395 60%, #fe0093 60%, #fe0093 100%);
+    background-size: 180px 180px;
+    border-radius: 5% 5% 30% 30%;
+    height: 180px;
+    margin: 10px;
+    margin-right: 10px;
+    position: absolute;
+    width: 130px;
+    z-index: 1;
+}
+
+.butterfly{
+    background-image: linear-gradient(0deg, #761061 0%, #761061 20%, #e2d395 20%, #e2d395 60%, #e2d395 60%, #e2d395 100%);
     background-size: 180px 180px;
     border-radius: 5% 5% 30% 30%;
     height: 180px;

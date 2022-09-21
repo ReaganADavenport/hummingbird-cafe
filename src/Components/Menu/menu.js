@@ -21,7 +21,8 @@ const Menu = () => {
             <HotCard itemName={"Chai Tea Latte"} itemIngredients={"chai tea, steamed milk, milk foam"} itemContents={'chaiTeaLatte'}></HotCard>
             <HotCard itemName={"London Fog"} itemIngredients={"earl grey tea, vanilla, lavender, brown sugar, steamed milk, milk foam"} itemContents={'londonFog'}></HotCard>
             <ColdCard itemName={"Lemonade"} itemIngredients={"lemon juice, sugar"} itemContents={'lemonade'}></ColdCard>
-            <ColdCard itemName={"Dragon Fruit Lemonade"} itemIngredients={"dragon fruit, lemon juice, maple syrup"} itemContents={'dragonFruit'}></ColdCard>
+            <ColdCard itemName={"Dragon Fruit Lemonade"} itemIngredients={"dragon fruit, lemonade, maple syrup"} itemContents={'dragonFruit'}></ColdCard>
+            <ColdCard itemName={"Butterfly Lemonade"} itemIngredients={"butterfly pea blossoms, lemonade"} itemContents={'butterfly'}></ColdCard>
         </div>
 
       </div>
