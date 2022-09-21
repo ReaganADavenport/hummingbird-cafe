@@ -293,6 +293,30 @@
     z-index: 1;
 }
 
+.iceBreakfastTeaLatte{
+    background-image: linear-gradient(0deg, #3d0d1c 0%, #3d0d1c 50%, #f0eada 50%, #f0eada 90%, #f0eada 90%, #f0eada 92%);
+    background-size: 180px 180px;
+    border-radius: 5% 5% 30% 30%;
+    height: 180px;
+    margin: 10px;
+    margin-right: 10px;
+    position: absolute;
+    width: 130px;
+    z-index: 1;
+}
+
+.iceGreenTeaLatte{
+    background-image: linear-gradient(0deg, #a7d55f 0%, #a7d55f 50%, #f0eada 50%, #f0eada 90%, #f0eada 90%, #f0eada 100%);
+    background-size: 180px 180px;
+    border-radius: 5% 5% 30% 30%;
+    height: 180px;
+    margin: 10px;
+    margin-right: 10px;
+    position: absolute;
+    width: 130px;
+    z-index: 1;
+}
+
 .boba1{
     background-color: #000;
     border-radius: 50px;
