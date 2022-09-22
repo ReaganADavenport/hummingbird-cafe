@@ -1,0 +1,139 @@
+.BobaCard{
+    align-items: center;
+    /* background:rgba(0, 0, 0, 0.3); */
+    background: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(5px);
+    border: solid 2px transparent;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px rgba(46, 54, 68, 0.3);
+    color:#fff;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 5px;
+    padding: 5px;
+    margin-left: 30px;
+    margin-top: 30px;
+    text-align: center;
+    width: 250px;
+}
+
+.glass{
+    width: 150px;
+    height: 200px;
+    border-radius: 5% 5% 30% 30%;
+    border-style: solid;
+    border-color: #fff;
+    border-width: 0.5rem;
+    margin: auto;
+}
+
+.ice1{
+    background-color: rgba(222, 231, 242, 1);
+    border: solid #91b4d2;
+    border-radius: 5px;
+    height: 50px;
+    margin: 20px;
+    position: relative;
+    width: 50px;
+    z-index: 2;
+}
+
+.ice2{
+    background-color: rgba(222, 231, 242, 1);
+    border: solid #91b4d2;
+    border-radius: 5px;
+    height: 50px;
+    margin-left: 70px;
+    position: relative;
+    top: -20px;
+    width: 50px;
+    z-index: 2;
+}
+
+.ice3{
+    background-color: rgba(222, 231, 242, 1);
+    border: solid #91b4d2;
+    border-radius: 5px;
+    height: 50px;
+    margin-left: 80px;
+    position: relative;
+    top: -140px;
+    width: 50px;
+    z-index: 2;
+}
+
+.boba1{
+    background-color: #000;
+    border-radius: 50px;
+    height: 30px;
+    left: 20px;
+    position: relative;
+    top: -70px;
+    width: 30px;
+    z-index: 2;
+}
+
+.boba2{
+    background-color: #000;
+    border-radius: 50px;
+    height: 30px;
+    left: 60px;
+    position: relative;
+    top: -80px;
+    width: 30px;
+    z-index: 2;
+}
+
+.boba3{
+    background-color: #000;
+    border-radius: 50px;
+    height: 30px;
+    left: 100px;
+    position: relative;
+    top: -130px;
+    width: 30px;
+    z-index: 2;
+}
+
+.bobaTea{
+    background-image: linear-gradient(0deg, #f0eada 0%, #f0eada 50%, #660501 50%, #660501 100%);
+    background-size: 180px 180px;
+    border-radius: 5% 5% 30% 30%;
+    height: 180px;
+    margin: 10px;
+    margin-right: 10px;
+    position: absolute;
+    width: 130px;
+    z-index: 1;
+}
+
+.earlGreyBobaTea{
+    background-image: linear-gradient(0deg, #660602 0%, #660602 50%, #f0eada 50%, #f0eada 90%, #c5b9dc 90%, #c5b9dc 100%);
+    background-size: 180px 180px;
+    border-radius: 5% 5% 30% 30%;
+    height: 180px;
+    margin: 10px;
+    margin-right: 10px;
+    position: absolute;
+    width: 130px;
+    z-index: 1;
+}
+
+.taroTea{
+    background-image: linear-gradient(0deg, #e39803 0%, #e39803 50%, #f0eada 50%, #f0eada 90%, #aa5e93 90%, #aa5e93 100%);
+    background-size: 180px 180px;
+    border-radius: 5% 5% 30% 30%;
+    height: 180px;
+    margin: 10px;
+    margin-right: 10px;
+    position: absolute;
+    width: 130px;
+    z-index: 1;
+}
+
+.drink-ingredients{
+    align-items: center;
+    color: #fff;
+    text-align: center;
+}

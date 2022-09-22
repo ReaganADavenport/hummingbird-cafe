@@ -1,0 +1,142 @@
+.ColdCard{
+    align-items: center;
+    /* background:rgba(0, 0, 0, 0.3); */
+    background: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(5px);
+    border: solid 2px transparent;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px rgba(46, 54, 68, 0.3);
+    color:#fff;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 5px;
+    padding: 5px;
+    margin-left: 30px;
+    margin-top: 30px;
+    text-align: center;
+    width: 250px;
+}
+
+.glass{
+    width: 150px;
+    height: 200px;
+    border-radius: 5% 5% 30% 30%;
+    border-style: solid;
+    border-color: #fff;
+    border-width: 0.5rem;
+    margin: auto;
+}
+
+.ice1{
+    background-color: rgba(222, 231, 242, 1);
+    border: solid #91b4d2;
+    border-radius: 5px;
+    height: 50px;
+    margin: 20px;
+    position: relative;
+    width: 50px;
+    z-index: 2;
+}
+
+.ice2{
+    background-color: rgba(222, 231, 242, 1);
+    border: solid #91b4d2;
+    border-radius: 5px;
+    height: 50px;
+    margin-left: 70px;
+    position: relative;
+    top: -20px;
+    width: 50px;
+    z-index: 2;
+}
+
+.ice3{
+    background-color: rgba(222, 231, 242, 1);
+    border: solid #91b4d2;
+    border-radius: 5px;
+    height: 50px;
+    margin-left: 80px;
+    position: relative;
+    top: -140px;
+    width: 50px;
+    z-index: 2;
+}
+
+.lemonade{
+    background-image: linear-gradient(0deg, #dadbe1 0%, #dadbe1 20%, #e2d395 20%, #e2d395 60%, #e2d395 60%, #e2d395 100%);
+    background-size: 180px 180px;
+    border-radius: 5% 5% 30% 30%;
+    height: 180px;
+    margin: 10px;
+    margin-right: 10px;
+    position: absolute;
+    width: 130px;
+    z-index: 1;
+}
+
+.dragonFruit{
+    background-image: linear-gradient(0deg, #ba6303 0%, #ba6303 10%, #e2d395 10%, #e2d395 60%, #fe0093 60%, #fe0093 100%);
+    background-size: 180px 180px;
+    border-radius: 5% 5% 30% 30%;
+    height: 180px;
+    margin: 10px;
+    margin-right: 10px;
+    position: absolute;
+    width: 130px;
+    z-index: 1;
+}
+
+.butterfly{
+    background-image: linear-gradient(0deg, #761061 0%, #761061 20%, #e2d395 20%, #e2d395 60%, #e2d395 60%, #e2d395 100%);
+    background-size: 180px 180px;
+    border-radius: 5% 5% 30% 30%;
+    height: 180px;
+    margin: 10px;
+    margin-right: 10px;
+    position: absolute;
+    width: 130px;
+    z-index: 1;
+}
+
+.iceChaiTeaLatte{
+    background-image: linear-gradient(0deg, #d8955b 27.61%, #d8955b 40%, #f0eada 40%, #f0eada 90%, #f0eada 90%, #f0eada 92%);
+    background-size: 180px 180px;
+    border-radius: 5% 5% 30% 30%;
+    height: 180px;
+    margin: 10px;
+    margin-right: 10px;
+    position: absolute;
+    width: 130px;
+    z-index: 1;
+}
+
+.iceBreakfastTeaLatte{
+    background-image: linear-gradient(0deg, #3d0d1c 0%, #3d0d1c 50%, #f0eada 50%, #f0eada 90%, #f0eada 90%, #f0eada 92%);
+    background-size: 180px 180px;
+    border-radius: 5% 5% 30% 30%;
+    height: 180px;
+    margin: 10px;
+    margin-right: 10px;
+    position: absolute;
+    width: 130px;
+    z-index: 1;
+}
+
+.iceGreenTeaLatte{
+    background-image: linear-gradient(0deg, #a7d55f 0%, #a7d55f 50%, #f0eada 50%, #f0eada 90%, #f0eada 90%, #f0eada 100%);
+    background-size: 180px 180px;
+    border-radius: 5% 5% 30% 30%;
+    height: 180px;
+    margin: 10px;
+    margin-right: 10px;
+    position: absolute;
+    width: 130px;
+    z-index: 1;
+}
+
+.drink-ingredients{
+    align-items: center;
+    color: #fff;
+    text-align: center;
+}

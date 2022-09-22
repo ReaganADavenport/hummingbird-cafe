@@ -1,5 +1,5 @@
 import React,{Component} from 'react';
-import './card.css';
+import './coldcard.css';
 
 
 
@@ -8,7 +8,7 @@ class ColdCard extends Component {
     const { itemName, itemContents, itemIngredients} = this.props;
     
     return(
-        <div className="Card">
+        <div className="ColdCard">
 
           <h1>{itemName}</h1>
 

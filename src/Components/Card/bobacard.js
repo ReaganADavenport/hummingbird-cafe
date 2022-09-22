@@ -1,5 +1,5 @@
 import React,{Component} from 'react';
-import './card.css';
+import './bobacard.css';
 
 
 
@@ -8,7 +8,7 @@ class BobaCard extends Component {
     const { itemName, itemContents, itemIngredients} = this.props;
     
     return(
-        <div className="Card">
+        <div className="BobaCard">
 
           <h1>{itemName}</h1>
 
