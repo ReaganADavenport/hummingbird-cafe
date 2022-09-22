@@ -10,7 +10,7 @@ const Nav = () => {
                 <a href='/'><img src={logo}></img></a>
             </div>
             <div className='Links'>
-                <a href=''><p>Menu</p></a>
+                <a href='#Menu'><p>Menu</p></a>
                 <a href=''><p>Location</p></a>
             </div>
             

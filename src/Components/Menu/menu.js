@@ -9,7 +9,7 @@ import BobaCard from '../Card/bobacard';
 const Menu = () => {
 
     return(
-        <div className='Menu'>
+        <div id="Menu" className='Menu'>
             <div className='Title'>
                 <h2>Menu</h2>
             </div>
