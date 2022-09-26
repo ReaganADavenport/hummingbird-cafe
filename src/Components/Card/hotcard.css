@@ -145,7 +145,7 @@
 }
 
 .latte{
-    background-image: linear-gradient(0deg, #4d211d 27.61%, #4d211d 40%, #f0eada 40%, #f0eada 90%, #fdfdfd 90%, #fdfdfd 92%);
+    background-image: linear-gradient(0deg, #4d211d 0%, #4d211d 40%, #f0eada 40%, #f0eada 90%, #fdfdfd 90%, #fdfdfd 100%);
     background-size: 134.00px 134.00px;
     border-radius: 5% 5% 30% 30%;
     height: 130px;
