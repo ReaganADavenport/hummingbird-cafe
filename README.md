@@ -1,3 +1,19 @@
+# Hummingbird Cafe
+
+I was inspired to recreate this codepen: https://codepen.io/davidkpiano/pen/GgqLbv
+but to add my own spin to it.
+
+My version not only has coffee, but also tea, and cold drinks like lemonaid and boba tea.
+
+Here is a demo video: https://www.youtube.com/watch?v=1YZ0V0PKmq8
+
+Here is a link to an article I wrote detailing my process: https://medium.com/dev-genius/how-to-make-a-layered-drink-with-css-%EF%B8%8F-e13b8f8eb055
+
+Finally here are some screenshots of how it should look:
+
+<img src="/images/latte.png" alt="latte card">
+<img src="/images/menu.png" alt="menu (partial)">
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
